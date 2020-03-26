@@ -9,5 +9,5 @@ else
     exit
 fi
 
-helm install prometheus stable/prometheus
-helm install grafana stable/grafana
+helm install prometheus stable/prometheus -n monitoring
+helm install grafana stable/grafana -n monitoring
