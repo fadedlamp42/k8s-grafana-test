@@ -12,4 +12,4 @@ graf-proxy.sh: Echos Grafana admin credentials and internal Prometheus endpoint,
 ```
 
 ## Usage
-Call scripts in tools/ directly or simply '''make init''' and '''make proxy'''
+Call scripts in tools/ directly or simply `make init` and `make proxy`
